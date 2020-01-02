@@ -1,0 +1,2 @@
+bootJar.enabled = false // 不要求启动项目，不需要main方法
+jar.enabled = true // 需要在build/libs下生成jar文件

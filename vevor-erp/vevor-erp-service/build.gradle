@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+archivesBaseName = 'vevor-erp-service'
+
+jar.enabled = true
+bootJar.enabled = false
+group 'com.sishun.vevor'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":vevor-erp:vevor-erp-dao")
+    compile project(":vevor-erp:vevor-erp-api")
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+}

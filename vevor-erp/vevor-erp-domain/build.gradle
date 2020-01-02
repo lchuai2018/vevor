@@ -1,0 +1,8 @@
+archivesBaseName = 'vevor-erp-domain'
+
+jar.enabled = true
+bootJar.enabled = false
+dependencies {
+   // compile project(":vevor-erp:vevor-erp-domain")
+   // testCompile group: 'junit', name: 'junit', version: '4.12'
+}

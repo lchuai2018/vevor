@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vevor.erp.PesonControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-22T05:10:54" hostname="MICROSO-CL1LJK6" time="0.002">
+  <properties/>
+  <testcase name="evaluatesExpression" classname="com.vevor.erp.PesonControllerTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

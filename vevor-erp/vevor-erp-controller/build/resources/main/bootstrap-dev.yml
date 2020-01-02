@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: erp-service
+  cloud:
+    consul:
+      # consul服务器地址 #192.168.11.9
+      host: 192.168.118.48
+      # consul服务端口
+      port: 8500
+      config:
+        name: ${spring.application.name}
+        # enabled为true表示启用配置管理功能
+        enabled: true
+        # watch选项为配置监视功能，主要监视配置的改变
+        watch:
+          enabled: true
+          delay: 10000
+          wait-time: 30
+        # 表示如果没有发现配置，是否抛出异常，true为是，false为否，当为false时，consul会打印warn级别的日志信息
+        fail-fast: true
+        # 表示使用的配置格式
+        format: YAML
+        # 配置所在的应用目录名称
+        prefix: config
+        default-context: ${spring.application.name}
+        # 表示如果有多个profile(eg: 开发环境dev，测试环境test...) ，则key名中的profile与defaultContext之间，用什么分隔符来表示
+        #profileSeparator: ','
+        #表示最后一层节点的key值名称，一般默认为data
+        data-key: data
+    config:
+      allow-override: true
+      override-system-properties: true
+      override-none: false

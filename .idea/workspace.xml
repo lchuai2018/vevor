@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="403245e2-7bef-4157-aab1-0b298a2acab5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-core">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-admin">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-erp/vevor-erp-domain">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-erp/vevor-erp-dao">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-erp">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-erp/vevor-erp-api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-erp/vevor-erp-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-erp/vevor-erp-controller">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vevor-elasticsearch">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vevor-parent" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vevor-parent" type="f1a62948:ProjectNode" />
+                <item name="vevor-erp" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vevor-parent" type="f1a62948:ProjectNode" />
+                <item name="vevor-erp" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vevor-parent" type="f1a62948:ProjectNode" />
+                <item name="vevor-erp" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repo" />
+        <option name="mavenHome" value="D:/tool/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tool\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V3nYmfOEcpSqRbaWjpb1L8dRBj" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\owndemo\gradle\vevor-parent" />
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-erp\vevor-erp-controller\src\main\java\com\vevor\erp\config" />
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-erp\vevor-erp-controller\src\main\resources" />
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-erp\vevor-erp-controller\src\test\resources" />
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-elasticsearch\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vevor.erp.config" />
+      <recent name="com.vevor.erp.controller" />
+      <recent name="com.vevor.erp.impl.person" />
+      <recent name="com.vevor.erp.service.person" />
+      <recent name="com.vevor.erp.dao.person" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-erp\vevor-erp-controller\src\main\resources\mapper" />
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-erp\vevor-erp-controller\src\main\resources" />
+      <recent name="F:\owndemo\gradle\vevor-parent\vevor-erp\vevor-erp-controller\src\main\resources\mybatis\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VevorErpApplication">
+    <configuration name="PesonControllerTests.evaluatesExpression" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vevor.erp.PesonControllerTests.evaluatesExpression&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":vevor-erp:vevor-erp-controller:cleanTest" />
+            <option value=":vevor-erp:vevor-erp-controller:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VevorErpAppicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.vevor.erp.VevorErpAppicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":vevor-erp:vevor-erp-controller:cleanTest" />
+            <option value=":vevor-erp:vevor-erp-controller:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vevor-parent [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testClasses" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vevor-parent:vevor-erp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vevor-erp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vevor-parent:vevor-erp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vevor-erp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VevorElasticSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vevor-parent.vevor-elasticsearch.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vevor.es.VevorElasticSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VevorErpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vevor-parent.vevor-erp.vevor-erp-controller.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vevor.erp.VevorErpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.VevorErpAppicationTests" />
+      <item itemvalue="Gradle.vevor-parent [testClasses]" />
+      <item itemvalue="Gradle.PesonControllerTests.evaluatesExpression" />
+      <item itemvalue="Gradle.vevor-parent:vevor-erp [clean]" />
+      <item itemvalue="Gradle.vevor-parent:vevor-erp [build]" />
+      <item itemvalue="Spring Boot.VevorElasticSearchApplication" />
+      <item itemvalue="Spring Boot.VevorErpApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.vevor-parent:vevor-erp [build]" />
+        <item itemvalue="Gradle.vevor-parent:vevor-erp [clean]" />
+        <item itemvalue="Gradle.PesonControllerTests.evaluatesExpression" />
+        <item itemvalue="Gradle.VevorErpAppicationTests" />
+        <item itemvalue="Gradle.vevor-parent [testClasses]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="403245e2-7bef-4157-aab1-0b298a2acab5" name="Default Changelist" comment="" />
+      <created>1576490695517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576490695517</updated>
+      <workItem from="1576490698844" duration="27717000" />
+      <workItem from="1576574962752" duration="41091000" />
+      <workItem from="1576905898745" duration="12796000" />
+      <workItem from="1577933701668" duration="2710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vevor_parent$VevorErpApplication.ic" NAME="VevorErpApplication Coverage Results" MODIFIED="1576907300845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

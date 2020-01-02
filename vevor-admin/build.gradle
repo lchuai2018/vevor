@@ -1,0 +1,9 @@
+jar.enabled = true
+bootJar.enabled = false
+dependencies {
+    //引入子模块 gradle-core
+    compile project(':vevor-core')
+    //引入 springboot starter web
+    compile'org.springframework.boot:spring-boot-starter-web'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

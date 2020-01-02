@@ -1,0 +1,12 @@
+
+dependencies {
+    compile project(":vevor-core")
+    compile project(":vevor-erp:vevor-erp-service")
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.1.2.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: '2.1.2.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-config', version: '2.1.2.RELEASE'
+    compile group: 'com.alibaba', name: 'druid', version: '1.1.18'
+    compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.18'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+

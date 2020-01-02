@@ -1,0 +1,16 @@
+//父模块名称
+rootProject.name = 'vevor-parent'
+//子模块 admin包名称
+include 'vevor-admin'
+//子模块 core包名称
+include 'vevor-core'
+//子模块 es包名称
+include 'vevor-elasticsearch'
+//子模块 erp包名称
+include 'vevor-erp'
+include 'vevor-erp:vevor-erp-api'
+include 'vevor-erp:vevor-erp-service'
+include 'vevor-erp:vevor-erp-controller'
+include 'vevor-erp:vevor-erp-domain'
+include 'vevor-erp:vevor-erp-dao'
+

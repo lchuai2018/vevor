@@ -1,0 +1,149 @@
+buildscript {
+    //定义全局变量
+    ext{
+        //指定springboot 版本
+        springBootVersion='2.1.3.RELEASE'
+        springCloudVersion = 'Greenwich.RELEASE'
+    }
+    /**
+     * 指定所使用仓库的路径
+     * mavenCentral()，中央仓库，项目中所使用的jar包都会从中央仓库下载到本地仓库。
+     *                 若本地仓库已经拥有相应的jar包，则不会重复下载
+     *                 可以使用命令maven { url "http://maven.aliyun.com/nexus/content/groups/public" }指定maven的远程仓库地址
+     * mavenLocal()本地仓库，与GRADLE_USER_HOME配置的路径一致。
+     * */
+    repositories{
+        mavenLocal()
+        maven {url "http://maven.aliyun.com/nexus/content/groups/public/"}
+        jcenter()
+        mavenCentral()
+    }
+    /**
+     * gradle所有的jar包文件坐标都在dependencies属性内放置
+     * 每一个jar包都具备以下特点
+     * 1.scope（作用域）：gradle支持compile、runtime、testCompile、testRuntime四种scope
+     *   compile：jar包在编译期与运行期依赖。
+     *   runtime：jar包在运行期依赖。
+     *   testCompile：jar包在测试编译期与运行期依赖。
+     *   testRuntime：jar包在测试运行期依赖。
+     *   补充：
+     *   providedCompile：jar包/依赖代码 仅在编译的时候需要，但是在运行时不需要依赖。
+     *   providedCompile与compile,runtime区别：
+     *   compile: 前提：apply plugin: 'war'或者apply plugin: 'java'
+     *   providedCompile:前提：apply plugin: 'war'，若前提为'java',则使用compileOnly
+     *   runtime:前提：apply plugin: 'war'
+     *   以上所说的前提，如果不正确配置的话，就会遇到依赖包无法导入，以及runtime以及providedCompile无法使用的情况。
+     * 2. group:与maven的groupId一致。
+     *    name:与maven的artifactId一致。
+     *    version:与maven的version一致。
+     */
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+/**
+ * 引入所有模块的配置，包括父模块 vevor-parent，子模块vevor-core，vevor-admin，vevor-elasticsearch
+ */
+allprojects {
+    //创建项目输入groupId
+    group 'com.sishun.vevor'
+    //创建项目所输入的版本
+    version '1.0-SNAPSHOT'
+    //指定运行环境，java
+    apply plugin: 'java'
+    //指定ide环境，idea
+    apply plugin: 'idea'
+    //定义全局变量
+    ext{
+        //指定springboot 版本
+        springBootVersion='2.1.3.RELEASE'
+        //springCloudVersion = 'Greenwich.RELEASE'
+    }
+}
+// 子模块/项目的统一配置，引入所有子模块的配置
+subprojects {
+    //引入spring 依赖管理插件
+    apply plugin: 'io.spring.dependency-management'
+    //引入springboot 插件
+    apply plugin: 'org.springframework.boot'
+    //指定编译编译.java文件的jdk版本
+    sourceCompatibility = 1.8
+    //确保class文件与targetCompatibility指定版本，或者更新的java虚拟机兼容
+    targetCompatibility = 1.8
+    //指定gradle编译时，针对java文件使用 UTF-8 编码
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+    //指定目录结构
+    sourceSets {
+        main {
+            java{
+                srcDir 'src/main/java'
+            }
+            resources {
+                srcDir 'src/main/java'
+                srcDir 'src/main/resources'
+            }
+        }
+    }
+    // 关掉bootRepackage任务
+    //bootRepackage.enabled=false
+    // 指定编码格式
+    //[compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+    /**
+     * 指定子模块所使用仓库的路径
+     * */
+    repositories {
+        mavenLocal()
+        maven{url "http://maven.aliyun.com/nexus/content/groups/public"}
+        mavenCentral()
+    }
+    ext {//依赖版本
+        springBootVersion = "2.1.3.RELEASE"
+        //mysqlConnectorVersion = "5.7.25"
+        mybatisStarterVersion = "1.3.2"
+        fastjsonVersion = "1.2.54"
+        swaggerVersion ="2.9.2"
+    }
+    dependencies {
+        compile group: 'tk.mybatis', name: 'mapper-spring-boot-starter',  version: '2.1.3'
+        compile("javax.servlet:javax.servlet-api:4.0.1")
+        compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+        // Mybatis
+        /*compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:$mybatisStarterVersion")*/
+        // Log4j2
+        compile("org.springframework.boot:spring-boot-starter-log4j2:$springBootVersion")
+        // JDBC Driver
+        //compile("mysql:mysql-connector-java:$mysqlConnectorVersion")
+        runtime("mysql:mysql-connector-java")
+        // JSON
+        compile("com.alibaba:fastjson:$fastjsonVersion")
+        // Apache Commons
+        compile("org.apache.commons:commons-lang3:3.8.1")
+        compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+        compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+        // 单元测试
+        testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
+        testCompile("junit:junit:4.12")
+    }
+    dependencyManagement {
+        imports {
+            //spring bom helps us to declare dependencies without specifying version numbers.
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        }
+    }
+    configurations {
+        //移除spring boot 默认logger依赖
+        all*.exclude module: 'spring-boot-starter-logging'
+    }
+
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
